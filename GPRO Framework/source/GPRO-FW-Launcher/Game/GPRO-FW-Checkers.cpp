@@ -1,6 +1,7 @@
 
-#include <stdio.h>
+#include <iostream>
 
+using namespace std;
 
 //-----------------------------------------------------------------------------
 // DECLARATIONS
@@ -70,7 +71,7 @@ inline gs_checkers_index gs_checkers_reset(gs_checkers game)
 
 int launchCheckers()
 {
-	gs_checkers game = { 0 };
+	gs_checkers game;// = { 0 };
 
 	gs_checkers_reset(game);
 

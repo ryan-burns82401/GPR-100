@@ -1,5 +1,7 @@
 
-#include <stdio.h>
+#include <iostream>
+
+using namespace std;
 
 
 //-----------------------------------------------------------------------------
@@ -62,11 +64,11 @@ inline gs_tictactoe_index gs_tictactoe_reset(gs_tictactoe game)
 
 int launchTicTacToe()
 {
-	gs_tictactoe game = { 0 };
+	gs_tictactoe game;// = { 0 };
 
 	gs_tictactoe_reset(game);
 
-
+	
 
 	return 0;
 }

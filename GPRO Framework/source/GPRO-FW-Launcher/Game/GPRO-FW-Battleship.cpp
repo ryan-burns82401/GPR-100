@@ -1,6 +1,7 @@
 
-#include <stdio.h>
+#include <iostream>
 
+using namespace std;
 
 //-----------------------------------------------------------------------------
 // DECLARATIONS
@@ -70,7 +71,7 @@ inline gs_battleship_index gs_battleship_reset(gs_battleship game)
 
 int launchBattleship()
 {
-	gs_battleship game = { 0 };
+	gs_battleship game;// = { 0 };
 
 	gs_battleship_reset(game);
 
