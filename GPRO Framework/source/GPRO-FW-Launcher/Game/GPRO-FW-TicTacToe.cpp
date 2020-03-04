@@ -68,7 +68,7 @@ int launchTicTacToe()
 
 	gs_tictactoe_reset(game);
 
-	
+	cout << "Tic-Tac-Toe" << endl;
 
 	return 0;
 }
